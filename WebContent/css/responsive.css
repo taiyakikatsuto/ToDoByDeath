@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media(max-width:639px) {
+/*スマホ用のcssを記述*/
+
+	.header-menu {
+		display: none;
+	}
+
+	.header-icon {
+		width: 20%;
+	}
+
+	.todo{
+		width: 100%;
+	}
+}
+
+@media(min-width:640px) and (max-width:1023px) {
+/*tablet用のcssを記述*/
+
+	.header-menu {
+		display: none;
+	}
+
+	.todo{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width:1024px) {
+/*pc用のcssを記述*/
+
+	.header-icon {
+		display: none;
+	}
+
+}
